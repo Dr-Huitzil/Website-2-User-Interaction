@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Epic Gamer Moment</title>
+  <link rel="icon" type="image/x-icon" href="img/1068776.jpg">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+
+  <!--   start button -->
+  <div class="rei_btn"><button>Push this Button</button></div>
+  <div class="saul_btn"><button>Push this Button</button></div>
+  <div class="start_btn"><button>Push this Button</button></div>
+  <div class="fish_btn"><button>Push this Button</button></div>
+  <div class="fnaf_btn"><button>Push this Button</button></div>
+
+  <!--   for the start button -->
+  <div class="info_box">
+    <div class="info-title"><span>The Impossible Game</span></div>
+    <div class="info-list">
+      <div class="info">
+        <div id="info1"></div>
+        <div id="info2"></div>
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit</button>
+      <audio id="hey" src="audio/Low Quality Hey Ya!.mp3"></audio>
+      <audio id="buddy" src="audio/buddy-holy.mp3"></audio>
+      <button class="restart">Play!</button>
+    </div>
+  </div>
+
+  <!-- for the fish button -->
+  <div class="fish_meme">
+    <div class="meme-title"><span>The Impossible Game</span></div>
+    <div class="meme_image">
+      <div class="imagine">
+        <img class="pic" src="img/spin-fish.gif">
+      </div>
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit</button>
+      <audio id="talk" src="audio/funky town low quality.mp3"></audio>
+      <button class="Fishsound">Play!</button>
+    </div>
+  </div>
+  <!--   for saul goodman -->
+  <div class="saul_meme">
+    <div class="meme-title"><span>The Impossible Game</span></div>
+    <div class="meme_image"></div>
+    <div class="imagine">
+      <img class="pic" src="img/3d-saul-saul-goodman.gif">
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit</button>
+      <audio id="goodman" src="audio/Saul goodman 3d.mp3"></audio>
+      <button class="Saulsound">Play!</button>
+    </div>
+  </div>
+  <!--   for rei -->
+  <div class="rei_meme">
+    <div class="meme-title"><span>The Impossible Game</span></div>
+    <div class="meme_image"></div>
+    <div class="imagine">
+      <img class="pic" src="img/rei-ayanami-rei.gif">
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit</button>
+      <audio id="neon" src="audio/A cruel angels cumbia.mp3"></audio>
+      <button class="Reisound">Play!</button>
+    </div>
+  </div>
+  <!--   for fnaf -->
+  <div class="fnaf_meme">
+    <div class="meme-title"><span>The Impossible Game</span></div>
+    <div class="meme_image"></div>
+    <div class="imagine">
+      <img class="pic" src="img/freddy.gif">
+    </div>
+    <div class="buttons">
+      <button class="quit">Exit</button>
+      <audio id="slaughter" src="audio/man behind the slaughter 8-bit remix.mp3"></audio>
+      <button class="Fnafsound">Play!</button>
+    </div>
+  </div>
+
+  <!-- game Box -->
+  <div class="game_box">
+    <header>
+      <div class="title">The Impossible Game</div>
+    </header>
+    <section>
+      <div class="que_text"></div>
+      <div class="challenge2">
+        <h3>
+          <div class="choose">Choose the correct color</div>
+        </h3>
+        <br>
+        <p>
+          Color: <input type="color" id="getColor">
+          <br>
+          <br>
+        <div id="color-output"></div>
+        <br>
+        <br>
+        <h2>
+          <div id="result"></div>
+        </h2>
+        <h3>
+          <div id="message"></div>
+        </h3>
+        </p>
+      </div>
+
+    </section>
+
+    <!-- footer of game Box -->
+    <footer>
+      <div class="score">
+        <h3>
+          <div id="score">
+        </h3>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Result Box -->
+  <div class="result_box">
+    <div class="icon">
+      <img class="weezerAzul" src="img/rnm93n9xii641.jpg" width=400px height=400px></img>
+    </div>
+    <div class="complete_text">
+      <div id="complete_text"></div>
+    </div>
+    <div class="score_text">
+      <!-- Here I've inserted Score Result from JavaScript -->
+    </div>
+    <div class="buttons">
+      <button class="restart">Replay</button>
+      <button class="quit">Quit</button>
+    </div>
+  </div>
+
+
+  <!-- Inside this JavaScript file I've coded all game Codes -->
+  <script src="js/script.js"></script>
+
+  <!-- inside is the code for the program i wrote for the guessign number thing -->
+  <script src="js/guess.js"></script>
+
+
+</body>
+
+</html>
